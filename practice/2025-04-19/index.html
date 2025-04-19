@@ -16,13 +16,26 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="../../assets/css/main.css" />
+
+        <!-- Scripts -->
+        <script src="../../assets/js/scripts.js"></script>
     </head>
     <body>
-        <style>
-            body {
-                font-family: Gordita, sans-serif;
-            }
-        </style>
-        <h1>Lorem ipsum dolor sit amet.</h1>
+        <!-- Header -->
+        <header id="header"></header>
+        <script>
+            load("#header", "../../templates/header.html");
+        </script>
+
+        <!-- Main -->
+        <main>
+            <h2>Main content</h2>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer"></footer>
+        <script>
+            load("#footer", "../../templates/footer.html");
+        </script>
     </body>
 </html>
