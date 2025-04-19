@@ -1,0 +1,13 @@
+{
+    "name": "f8-project-08-practice",
+    "version": "1.0.0",
+    "description": "## 📌 Mục tiêu cá nhân - Luyện code nhiều lần để quen tay, nhớ cú pháp, hiểu cấu trúc dự án - Tăng tốc độ code thực tế mà không cần nhìn tutorial - Ghi lại quá trình học để rút kinh nghiệm mỗi ngày - Nhận ra điểm yếu và cải thiện dần theo thời gian",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass scss:assets/css -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
